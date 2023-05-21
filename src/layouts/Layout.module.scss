@@ -1,0 +1,42 @@
+.rootWrapper {
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  // background-color: red;
+}
+
+.pageWrapper {
+  display: flex;
+  justify-content: center;
+  //   min-height: calc(100% - #{$headerHeight});
+  padding-bottom: 15px;
+  //   background-color: get_color("white");
+  position: relative;
+}
+
+.pageContentHolder {
+  // padding: 25px 50px 0;
+  padding-top: 25px;
+  width: 1100px;
+  position: relative;
+}
+
+.headerHolder {
+  //   height: $headerHeight;
+}
+
+.backgroundImg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  //   background-size: cover;
+  background-size: 100% 100%;
+  // background-image: url(../../src/assets/images/back-layout.png);
+  z-index: -1;
+}
+
+.homeBackgroundImg {
+  // background-image: url(../../src/assets/images/home.png);
+}

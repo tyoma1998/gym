@@ -1,0 +1,81 @@
+.classNameHeader {
+  height: 400px;
+}
+
+.input {
+  color: #000000;
+  border: 1px solid #c9c9c9;
+  background-color: transparent;
+  -webkit-appearance: none;
+  margin: 0;
+  height: 60px;
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 1.33;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.holderInfoUser {
+  padding-top: 20px;
+  display: flex;
+  column-gap: 50px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 30px 0;
+  p {
+    margin: 0;
+  }
+}
+
+.holderInfoUserContent {
+  width: 45%;
+}
+
+.holderAdditionalInfo {
+  padding-top: 30px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.containerAdditionalInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnCoin {
+  width: 100%;
+  font-weight: 500;
+  font-size: 20px;
+  display: inline-block;
+  left: 0;
+  height: 50px;
+  letter-spacing: 0.1px;
+  line-height: 40px;
+  padding: 0 10px;
+  // width: 140px;
+  font-weight: bold;
+  background-color: #e51603;
+  color: #fff;
+  border: none;
+  transition: 300ms linear;
+  cursor: pointer;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: #8b0f0f;
+  }
+}
+
+.holderBtn {
+  height: 123px;
+  display: flex;
+  align-items: flex-end;
+}

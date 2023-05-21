@@ -1,0 +1,68 @@
+.col {
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 auto;
+  width: 270px;
+}
+
+.teamItem {
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.teamMember {
+  overflow: hidden;
+}
+
+.thumb {
+  overflow: hidden;
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  border: none;
+}
+
+.content {
+  background-color: #f2f2f2;
+  padding: 14px 10px 0px 10px;
+  text-align: center;
+}
+
+.memberInfo {
+}
+
+.name {
+  color: #252525;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-size: 24px;
+  min-height: 58px;
+}
+
+.designation {
+  border-bottom: 1px solid #e8e8e8;
+  color: #787878;
+  margin-bottom: 0;
+  padding-bottom: 14px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.holder {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.holderList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

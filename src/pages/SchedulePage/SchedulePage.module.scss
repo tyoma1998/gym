@@ -1,0 +1,39 @@
+.calendarBtn {
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+  left: 0;
+  height: 40px;
+  letter-spacing: 0.1px;
+  line-height: 40px;
+  padding: 0 15px;
+  font-weight: bold;
+  background-color: #3074ac;
+  color: #fff;
+  border: none;
+  transition: 300ms linear;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #252525;
+  }
+}
+
+.holderCalendarToolbar {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  padding-bottom: 30px;
+}
+
+.containerCalendarToolbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}

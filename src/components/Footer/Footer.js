@@ -71,7 +71,7 @@ function Footer() {
               <div className={st.widgetContactInfo}>
                 <div className={st.contactInfoItem}>
                   <div className={st.content}>
-                    <h4 className={st.title}>Адресс</h4>
+                    <h4 className={st.title}>Адрес</h4>
                     <p>г. Таганрог, ул. Дипломная, д. 555</p>
                   </div>
                 </div>

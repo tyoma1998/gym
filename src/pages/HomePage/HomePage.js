@@ -20,8 +20,8 @@ const MOCK_DATA = [
   },
   {
     icon: "https://htmldemo.net/zymzoo/zymzoo/assets/img/icons/f2.png",
-    title: "Квалифицированный инструктор",
-    text: "Квалифицированный инструктора, которые смогу помочь вам в любом вопросе",
+    title: "Квалификационные инструктора",
+    text: "Квалификационные инструктора, которые смогут помочь вам в любом вопросе",
   },
   {
     icon: "https://htmldemo.net/zymzoo/zymzoo/assets/img/icons/f4.png",

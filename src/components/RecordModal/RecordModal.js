@@ -31,7 +31,7 @@ function RecordModal({ show = false, setShow = () => {} }) {
         />
         <input
           className={st.input}
-          placeholder="Номер телефона"
+          placeholder="Email"
           value={phone}
           onChange={(e) => {
             setShowError(false);

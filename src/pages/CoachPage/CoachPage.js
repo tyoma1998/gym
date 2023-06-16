@@ -56,7 +56,7 @@ const MOK_DATA = [
 
 function CoachPage() {
   return (
-    <Layout title="наши команда инструкторов">
+    <Layout title="наша команда инструкторов">
       <div>
         <div className={st.holder}>
           <div className={st.holderList}>
